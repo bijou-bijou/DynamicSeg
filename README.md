@@ -2,7 +2,7 @@
 DynamicSeg: Unsupervised image segmentation with dynamic weighted loss functions for accurate and scalable results.
 
 # DynamicSeg: Unsupervised Image Segmentation with Dynamic Weighted Loss Function
-
+![The CNN Framework](CNN framwork.png)
 ## Overview
 Image segmentation serves as the cornerstone for numerous computer vision tasks, necessitating pixel-wise understanding for accurate target achievement. While supervised deep learning models show promising performance, their reliance on extensive pixel-level annotations limits scalability and applicability. This project introduces an improved version of an unsupervised Convolutional Neural Network (CNN)-based algorithm for image segmentation. Unlike conventional approaches employing constant weight factors, our method employs a novel dynamic weighting scheme, facilitating automatic parameter adjustment for enhanced segmentation without manual intervention.
 
