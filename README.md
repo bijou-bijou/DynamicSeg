@@ -1,10 +1,9 @@
-# DynamicSeg
-DynamicSeg: Unsupervised image segmentation with dynamic weighted loss functions for accurate and scalable results.
-
 # DynamicSeg: Unsupervised Image Segmentation with Dynamic Weighted Loss Function
-![The CNN Framework](CNN_framwork.png)
+
 ## Overview
-Image segmentation serves as the cornerstone for numerous computer vision tasks, necessitating pixel-wise understanding for accurate target achievement. While supervised deep learning models show promising performance, their reliance on extensive pixel-level annotations limits scalability and applicability. This project introduces an improved version of an unsupervised Convolutional Neural Network (CNN)-based algorithm for image segmentation. Unlike conventional approaches employing constant weight factors, our method employs a novel dynamic weighting scheme, facilitating automatic parameter adjustment for enhanced segmentation without manual intervention.
+DynamicSeg is an innovative unsupervised image segmentation framework leveraging dynamic weighted loss functions. Unlike traditional methods that require manual parameter adjustment, DynamicSeg automatically balances feature similarity and spatial continuity criteria, enhancing segmentation accuracy across diverse datasets. With its flexible and scalable architecture, DynamicSeg empowers researchers and practitioners to achieve state-of-the-art image segmentation results without the need for extensive manual annotations.
+
+![The CNN Framework](CNN_framwork.png)
 
 ## Key Features
 - **Dynamic Weighted Loss Function:** Automatically adjusts the balance between feature similarity and spatial continuity, ensuring flexible parameter updates.
@@ -18,8 +17,21 @@ The proposed dynamic weighting scheme prioritizes either feature similarity or s
 - **Quantitative Evaluation:** Outperforms existing unsupervised segmentation approaches on benchmark datasets.
 - **Qualitative Assessment:** Produces semantically meaningful segmentation results, highlighting its efficacy in various application contexts.
 
+## Usage
+- **Training:** Use provided scripts to train the model on your dataset.
+- **Evaluation:** Evaluate model performance using included evaluation tools.
+- 
+# Contributions
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+# License
+This project is licensed under the MIT License.
+
+# Paper
+[Link to the Paper](https://ieeexplore.ieee.org/abstract/document/9999089)
+
 ## Installation
 ```bash
 git clone https://github.com/bijou-bijou/DynamicSeg.git
 cd DynamicSeg
-# Set up your environment and dependencies
+# Set up your environment and dependencies ```
