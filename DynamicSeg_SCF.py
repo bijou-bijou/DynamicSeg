@@ -94,8 +94,8 @@ for filename in os.listdir(input_folder):
             output = output.permute(1, 2, 0).contiguous().view(-1, args.nChannel)
 
             outputHP = output.reshape((im.shape[0], im.shape[1], args.nChannel))
-            lhpy = F.smooth_l1_loss(outputHP[1:, :, :], outputHP[0:-1, :, :])
-            lhpz = F.smooth_l1_loss(outputHP[:, 1:, :], outputHP[:, 0:-1, :])
+            lhpy = F.l1_loss(outputHP[1:, :, :], outputHP[0:-1, :, :])
+            lhpz = F.l1_loss(outputHP[:, 1:, :], outputHP[:, 0:-1, :])
 
             ignore, target = torch.max(output, 1)
             im_target = target.data.cpu().numpy()
