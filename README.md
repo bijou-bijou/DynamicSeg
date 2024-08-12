@@ -20,7 +20,7 @@ The proposed dynamic weighting scheme prioritizes either feature similarity or s
 ## Usage
 - **Training:** Use provided scripts to train the model on your dataset.
 - **Evaluation:** Evaluate model performance using included evaluation tools.
-- 
+
 # Contributions
 Contributions are welcome! Feel free to submit issues or pull requests.
 
